@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Poppins' );
+  @import url('http://fonts.googleapis.com/css?family=Poppins' );
 
 body {
     font-family:'Poppins';
@@ -33,3 +33,65 @@ header > div {
     margin-right: 1rem;
 }
  
+.navbar {
+  padding: 0 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:75px;
+  width:100%;
+}
+
+.npm {
+width: 65px;
+}
+
+.magnifying-glass {
+height:27px;
+position: fixed;
+z-index: 1;
+right:2280px;
+bottom:1130px;
+}
+
+.container {
+  
+}
+
+.text {
+  position:relative;
+  align-items:center;
+  right: 70px;
+  width: 2020px;
+  height:45px;
+  border-color: transparent;
+  background-color:whitesmoke;
+  padding-left: 70px;
+}
+.button1 {
+  border: 1px solid red;
+  position: relative;
+  right:90px;
+  background-color:red;
+  color:white;
+  height:40px;
+  width:100px;
+  font-size:20px;
+}
+.Join {
+  border: 1px solid black;
+  position:relative;
+  right:70px;
+  background-color:white;
+  width:100px;
+  height: 40px;
+  font-size: 20px;
+
+}
+
+.log {
+  position:relative;
+  right:50px;
+}
+
