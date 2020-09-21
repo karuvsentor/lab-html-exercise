@@ -49,25 +49,26 @@ width: 65px;
 
 .magnifying-glass {
 height:27px;
-position: fixed;
+position: relative;
+left: 50px;
 z-index: 1;
-right:2280px;
-bottom:1130px;
 }
 
 .container {
-  
+  display:flex;
+  position: relative;
+  align-content: center;
 }
 
 .text {
   position:relative;
   align-items:center;
-  right: 70px;
   width: 2020px;
   height:45px;
   border-color: transparent;
   background-color:whitesmoke;
   padding-left: 70px;
+  
 }
 .button1 {
   border: 1px solid red;
@@ -79,20 +80,23 @@ bottom:1130px;
   width:100px;
   font-size:20px;
 }
-.Join {
+.Join1 {
   border: 1px solid black;
-  position:relative;
-  right:70px;
+  position: relative;
+  right:60px;
   background-color:white;
-  width:100px;
-  height: 40px;
+  width:90px;
+  height: 35px;
   font-size: 20px;
+  z-index:1;
+
 
 }
 
 .log {
   position:relative;
   right:50px;
+  
 }
 
 #build-amazing-things {
@@ -200,12 +204,71 @@ bottom:1130px;
   font-size: 25px;
   font-style: italic;
   width: 1200px;
+
 }
 
 #zero-configuration {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top:30px;
+  margin-top:60px;
+  width:1800px;
+  padding-left: 27%;
 
+}
+
+.zero-configuration1 {
+  display:flex;
+  position: relative;
+  width: 40px;
+
+}
+
+.h {
+  color: red;
+  font-weight: bolder;
+}
+.team-management {
+  display:flex;
+  position: relative;
+  width: 40px;
+}
+
+.familiar-features {
+  display:flex;
+  position: relative;
+  width: 40px;
+}
+
+.npm-audit {
+  display:flex;
+  position: relative;
+  width: 40px;
+}
+
+.p {
+  display: flex;
+  position: relative;
+  align-items: left;
+  text-align: left; 
+  padding-right: 100px;
+}
+
+.Org {
+    display:flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom:50px;
+    background-color:black;
+    box-shadow: 8px 8px 0 rgba(0,0,0,.2);
+    color: white; 
+    top: 300px;
+    right: 950px;
+    width: 500px;
+    height: 70px;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bolder;
+    
+    
 }
